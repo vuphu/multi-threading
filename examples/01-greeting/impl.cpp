@@ -1,6 +1,7 @@
+#include <format>
 #include <iostream>
-#include <thread>
 #include <vector>
+#include <thread>
 
 void greet(int id) {
     std::string message = std::format("Hello from thread {}\n", id);
